@@ -24,3 +24,29 @@ git checkout -b <branchname>
 
 ## switch to a branch
 git checkout <branchname>
+
+## merge branches changes
+From current branch:
+
+git merge <other-branch>
+
+e.g From main
+git merge development
+
+this merge changes in development to main branch
+
+## to add a remote repository to your local copy
+
+git remote add <name> <url>
+
+e.g git remote add origin https://ahmed.github.com/wahab.git
+
+## check to see if your local copy has a remote reposiorty
+
+git remote -v
+
+## to push to the remote server
+
+git push <remote-name> <remote-branch>
+
+e.g git push origin main
