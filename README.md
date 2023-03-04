@@ -17,3 +17,4 @@ git commit -m 'your msg here'
 
 ## check git commit history
 git log
+git shortlog
